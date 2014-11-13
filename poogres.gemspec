@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['bbenezech']
   spec.email         = 'benoit.bbenezech@gmail.com'
   spec.summary       = %q{Ruby/ProgressBar is a flexible text progress bar library for Ruby.}
+  spec.files         = Dir['{app,config,db,lib}/**/*'] + %w{README.md LICENSE}
   spec.description   = <<-HEREDOC
 ProgressBar in style
   HEREDOC
